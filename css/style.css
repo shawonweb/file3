@@ -1,0 +1,142 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+body{
+    font-family: 'Lato', sans-serif;
+}
+       /*Header section*/
+header{
+    background: url(../img/banner.jpg);
+    background-repeat: 
+    no-repeat;background-size: cover;
+    padding: 25PX 0px;
+}
+.container{
+    width: 1140%;
+    margin: 0 auto;
+}
+img {
+    margin-top: 26px;
+}
+a.nav-link {
+    color: white;
+    margin: 40px 20px;
+}
+h1 {
+    background: #0000008c;
+    width: 86%;
+    color: white;
+    padding: 5px 30px;
+    font-size: 55px;
+    margin-top: 60px;
+    font-weight: 400;
+}
+p {
+    width: 82%;
+    color: white;
+}
+span {
+    border-bottom: 2px solid white;
+    display: block;
+    width: 4%;
+    margin-bottom: 30px;
+}
+button.custm-btn {
+    background-color: transparent;
+    width: 40%;
+    padding: 10px;
+    border-color: #f6f6f6;
+    margin-bottom: 200px;
+    font-size: 20PX;
+    color: white;
+}
+
+     /*  welecome section*/
+
+.welecome{
+    background-color: #f6f6f6;
+    padding: 25px 0px;
+}
+h2 {
+    font-size: 40px;
+    margin-top: 115px;
+    font-weight: 700;
+}
+.ctg{
+    border-bottom: 2px solid black;
+    display: block;
+    width: 4%;
+    margin-bottom: 46px;
+    margin-top: 19px;
+}
+h6 {
+    font-size: 18px;
+    color: #c3c3c3;
+}
+.col-md-7.main-img {
+    margin-top: 125px;
+    margin-bottom: -66px
+}
+
+
+    /*Another section*/
+.another{
+    background: #28282e;
+    padding: 25px 0px;
+    }
+h3 {
+    margin-top: 60px;
+    font-size: 54px;
+    color: white;
+}
+button.cstm-btn {
+    margin-bottom: 35px;
+    border-bottom: 2px solid whitesmoke;
+    display: block;
+    color: white;
+    background: transparent;
+    padding: 10px 29px;
+    margin-top: 50px;
+}
+.footer{
+    background: #ef4035;
+    padding: 35px 0px;
+
+}
+.one{
+    color: white;
+}
+b{
+    color: yellow;
+    background: red;
+    padding: 5px 10px;
+    margin: 28px 52px;
+}
+.btn {
+    width: 100%;
+    margin: 4px 0px;
+    background: #28282e;
+}
+
+/*media Query*/
+/*mobile device*/
+@media (min-width: 320px) and (max-width: 576px){
+    
+}
+//*small device*/
+@media(min-width: 576.01px) and (max-width:768px){
+    
+}
+/*medium device*/
+@media (min-width: 768.01px) and (max-width: 992px){
+    
+} 
+/*large device*/
+
+@media (min-width: 992px) and (max-width: 1140px){
+    
+}
